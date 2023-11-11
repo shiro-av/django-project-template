@@ -32,3 +32,7 @@ migrations/
 migration/
 .idea
 .idea/*
+
+# docker postgres dev
+docker/dev-db/postgres/pgdata
+docker/dev-db/postgres/2.\ Init\ Database
