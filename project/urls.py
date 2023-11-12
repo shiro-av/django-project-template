@@ -6,5 +6,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('captcha/', include('captcha.urls')),
     path('users/', include('users.urls')),
+    path('api/v0/', include('api_v0.urls')),
     path('', HomeStub.as_view(), name='homepage')
 ]
