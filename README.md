@@ -22,6 +22,7 @@ python manage.py runserver 8000
 DEBUG=1 # debug mode
 SECRET_KEY=secret
 DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]
+CORS_ALLOWED_ORIGINS=localhost 127.0.0.1
 DB_ENGINE=django.db.backends.postgresql
 DB_DATABASE=project-db
 DB_USER=user-db
