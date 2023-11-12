@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'bootstrap5',
+    'captcha',
 
     # my apps:
     'users',
@@ -119,6 +120,11 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
+
+
+LOGOUT_REDIRECT_URL = "homepage"
+LOGIN_REDIRECT_URL = "homepage"
+LOGIN_URL = 'login'
 
 
 # Internationalization
