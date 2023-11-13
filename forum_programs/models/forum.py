@@ -9,6 +9,7 @@ from users.models.users import User
 class ForumPrograms(models.Model):
     title = models.CharField(max_length=100, verbose_name='Название программы')
     description = models.TextField(verbose_name='Описание')
+    page_content = models.TextField(verbose_name='Контент')
     STATUS_CHOICES = (
         ('PENDING', 'Ожидание'),
         ('PROCESS', 'В процессе'),
