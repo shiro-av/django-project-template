@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     # my apps:
     'users',
     'api_v0',
+    'forum_programs',
 ]
 
 MIDDLEWARE = [
