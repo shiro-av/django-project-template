@@ -12,6 +12,7 @@ docker compose -f docker/dev-db/postgres/docker-compose.yml up -d
 # ...
 # run migrations
 python manage.py makemigrations
+python manage.py makemigrations users
 python manage.py migrate
 # run project
 python manage.py runserver 8000 
